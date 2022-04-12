@@ -1,4 +1,11 @@
-# Burger Website
+# Fast Food Website
+
+This is a fast food website. It is static and makes use of HTML5 and CSS3 to create the UI of the website. It is also responsive so the website can be used on mobile screens, tablets, desktops etc.
+
+# Technology Used
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Credits
 
