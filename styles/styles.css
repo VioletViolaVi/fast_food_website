@@ -23,7 +23,7 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
-  background-color: #fcffa4;
+  background-color: #ffff31;
   padding: 2rem;
   text-align: center;
   width: 100%;
@@ -41,6 +41,17 @@ a {
   align-items: center;
 }
 
-.footer-nav .icon-text {
-  display: none;
+.footer-nav a {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-nav a i,
+.footer-nav a p {
+  color: #fff;
+}
+
+.footer-nav a i:hover,
+.footer-nav a p:hover {
+  color: #ffff31;
 }
