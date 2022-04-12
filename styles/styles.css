@@ -12,6 +12,7 @@ body {
   cursor: default;
   font-family: "Comfortaa", cursive, Arial, Helvetica, sans-serif;
   position: relative;
+  padding-bottom: 100%;
 }
 
 a {
@@ -34,8 +35,8 @@ a {
 
 /********************************************************** home page */
 .burger-pic img {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 /********************************************************** footer */
@@ -57,7 +58,7 @@ a {
 
 .footer-nav a i,
 .footer-nav a p {
-  color: #fff;
+  color: #f8f4ff;
 }
 
 .footer-nav a i:hover,
