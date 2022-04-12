@@ -20,14 +20,14 @@ a {
 
 /********************************************************** nav bar */
 .title-nav {
-  background-color: #efcc00;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  background-color: #fcffa4;
   padding: 2rem;
   text-align: center;
   width: 100%;
-}
-
-.title-nav p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
