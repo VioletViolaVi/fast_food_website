@@ -11,6 +11,7 @@
 body {
   cursor: default;
   font-family: "Comfortaa", cursive, Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 a {
@@ -31,6 +32,12 @@ a {
   font-weight: bolder;
 }
 
+/********************************************************** home page */
+.burger-pic img {
+  width: 20rem;
+  height: 20rem;
+}
+
 /********************************************************** footer */
 .footer-nav {
   background-color: #100c08;
@@ -39,6 +46,8 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-nav a {
