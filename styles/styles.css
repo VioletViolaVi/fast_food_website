@@ -1,5 +1,5 @@
 /********************************************************** custom defaults */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 body {
   cursor: default;
-  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  font-family: "Comfortaa", cursive, Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -19,8 +19,21 @@ a {
 }
 
 /********************************************************** nav bar */
-.nav-bar {
-  background-color: #fff2df;
+.title-nav {
+  background-color: #efcc00;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.title-nav p {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/********************************************************** footer */
+.footer-nav {
+  background-color: #100c08;
   width: 100%;
   height: 6rem;
   display: flex;
@@ -28,22 +41,6 @@ a {
   align-items: center;
 }
 
-.nav-bar a {
-    font-weight: bolder;
-    font-size: 2rem;
+.footer-nav .icon-text {
+  display: none;
 }
-
-.nav-bar a:hover{
-    color: #674d3c;
-    text-decoration: underline;
-}
-
-.nav-bar .order-btn {
-    background-color: #a2836e;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-.nav-bar .order-btn:hover{background-color:#d9ad7c;}
-
-/* colours to use: #fff2df, #d9ad7c, #a2836e, #674d3c */
