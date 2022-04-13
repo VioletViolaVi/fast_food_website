@@ -68,6 +68,12 @@ main {
   border-radius: 1rem;
 }
 
+.burger-pic img:hover {
+  width: 15rem;
+  height: 11rem;
+  border: #ffff31 solid 1rem;
+}
+
 .order-btn {
   outline: none;
   margin-top: 2rem;
@@ -106,6 +112,11 @@ main {
   }
 
   .burger-pic img {
+    width: 17rem;
+    height: 13rem;
+  }
+
+  .burger-pic img:hover {
     width: 17rem;
     height: 13rem;
   }
