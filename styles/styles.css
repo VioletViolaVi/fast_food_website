@@ -16,10 +16,6 @@ body {
   text-align: center;
 }
 
-main {
-  margin-top: 7rem;
-}
-
 a {
   list-style: none;
   text-decoration: none;
@@ -38,7 +34,18 @@ a {
   position: fixed;
   top: 0;
 }
+
+/************************** media queries nav bar */
+@media (min-width: 700px) {
+  .title-nav {
+    font-size: 3rem;
+  }
+}
+
 /********************************************************** main */
+main {
+  margin-top: 7rem;
+}
 
 .title h1 {
   font-size: 2rem;
@@ -79,6 +86,43 @@ a {
   font-weight: bold;
 }
 
+/************************** media queries main */
+@media (min-width: 700px) {
+  body {
+    padding-bottom: 25%;
+  }
+
+  main {
+    margin-top: 10rem;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .main {
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+
+  .burger-pic img {
+    width: 17rem;
+    height: 13rem;
+  }
+
+  .main p {
+    font-size: 2rem;
+  }
+
+  .order-btn {
+    font-size: 2rem;
+  }
+
+  .order-btn:hover {
+    font-size: 2.5rem;
+  }
+}
+
 /********************************************************** footer */
 .footer-nav {
   background-color: #100c08;
@@ -104,4 +148,14 @@ a {
 .footer-nav a p:hover,
 .footer-nav a i:hover {
   color: #ffff31;
+}
+
+/************************** media queries footer */
+
+.footer-nav i {
+  font-size: 2rem;
+}
+
+.footer-nav p {
+  font-size: 2rem;
 }
