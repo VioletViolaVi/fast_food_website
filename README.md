@@ -1,6 +1,6 @@
 # Fast Food Website
 
-This is a fast food website. It is static and makes use of HTML5 and CSS3 to create the UI of the website. It is also responsive so the website can be used on mobile screens, tablets, desktops etc.
+This is a fast food website. It is static and makes use of HTML5 and CSS3 to create the UI of the website. It is also responsive so the website can be used on mobile screens, tablets, desktops etc. The website also used Google Fonts to style the font used. It also used Font Awesome to provide the icons used on this website.
 
 # Technology Used
 
