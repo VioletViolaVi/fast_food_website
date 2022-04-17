@@ -7,6 +7,7 @@ This is a fast food website. It is static and makes use of HTML5 and CSS3 to cre
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 # Credits
 
